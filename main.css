@@ -55,7 +55,7 @@ font-family:'PEIGNOT-LT-STD-BOLD', 'calibri', Times, serif; /*mesmo nome dado em
 }
 
 @font-face {
-    font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-family: 'PEIGNOT-LT-STD-BOLD', 'calibri';
     src: url('font/PEIGNOT-LT-STD-BOLD.otf') format('opentype'), 
          url('font/PEIGNOT-LT-STD-BOLD.ttf') format('truetype');
     font-weight: normal;
