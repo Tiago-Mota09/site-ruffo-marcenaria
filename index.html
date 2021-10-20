@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/Ruffo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ecc011f1dd.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Jquery -->
+    <title> RUFFO MARCENARIA</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 300){
+                    $('.seta').css({
+                        "opacity":"1", "pointer-events":"auto"
+                    });
+                }else{
+                    $('.seta').css({
+                        "opacity":"0", "pointer-events":"none"
+                    });
+                }
+            });
+
+            $('.seta').click(function(){
+                $('html').animate({scrollTop:0}, 500);
+            });
+        });
+    </script>
+</head>
+
+  <body>
+    <header class="nav-bar">
+        <!-- LOGO -->
+        <a href="#"><img src="img/RmLogo.png" alt="Site marcenaria"></a>
+        <h1>RUFFO MARCENARIA</h1>
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#galeria">Portifólio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </nav>
+    </header>
+
+    <!-- INSERINDO A IMG COM O TEXTO AO MEIO -->
+
+    <section class="principal" id="home">
+        <h1><span>RUFFO MARCENARIA</span> </h1>
+        <h3>"Qualidade que você pode confiar"</h3>
+        <a class="btn" href="#sobre" id="saiba">Saiba mais</a>
+    </section>
+    <div class="seta">
+        <i class="fas fa-chevron-up seta"></i>
+    </div>
+    <!-- SESSÃO DE SAIBA MAIS -->
+    <section class="galeria" id="galeria">
+        <h3>Portifólio</h3>
+        <p>
+            <!-- Na <span> RUFFO MARCENARIA</span> você encontra qualidade, garantia, e um excelente custo benefício.  -->
+            • A <span> RUFFO MARCENARIA</span> foca sempre em oferecer o melhor. E por este motivo trabalhamos com os melhores materiais e ferragens  que se encontram no mercado. <br>
+        </p>
+        
+        <hr>
+
+        <ul class="grid" id="galeria">
+            <li class="small" style="background-image: url('img/1.jpg')"><h2>Quartos</h2></li>
+            <li class="large" style="background-image: url('img/2.jpg')"><h2>Salas</h2></li>
+            <li class="large" style="background-image: url('img/3.jpg')"><h2>Banheiros</h2></li>
+            <li class="small" style="background-image: url('img/4.jpg')"><h2>Cozinhas</h2></li>
+        </ul>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <h3>Sobre nós:</h3>
+        <p>
+            •<span> RUFFO MARCENARIA: </span> <br><br> Para você que sonha em ter a seu ambiente com a sua cara, combinar a elegância, qualidade e praticidade para o seu lar.
+            A <span> RUFFO MARCENARIA</span> se dedica a oferecer o melhor,  realçar a verdadeira beleza da madeira, criando peças únicas e personalizadas.
+            
+            Aproveitando os espaços  para criar moveis com uma excelente qualidade e ergonomia, que combina todo charme e beleza necessário para deixar o seu lar com a sua cara.
+        </p>
+
+        <hr>
+
+        <ul class="grid">
+            <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Localização</h4>
+                <p>Localizado na Carolina do Sul do Norte com acesso rápido e fácil pela Av. Datrombeta, 357.</p>
+            </li>
+            <li>
+                <i class="far fa-calendar-alt"></i>
+                <h4>Agende uma visita</h4>
+                <p>Iremos até você para um brainstorm de seu projeto sem compromisso.</p>
+            </li>
+            <li>
+                <i class="fas fa-truck"></i>
+                <h4>Entrega agendada</h4>
+                <p>Agende tanto a entrega quanto a montagem de acordo com a sua preferência.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato" id="contato">
+        <h3>Contate-nos</h3>
+        <p>Contate-nos para saber mais sobre nossos serviços, prazos e garantias.</p>
+        <hr>
+
+        <form>
+            <input type="text" placeholder="email@gmail.com">
+            <button>Enviar</button>
+        </form>
+        
+    </section>
+    <div class="seta">
+        <i class="fas fa-chevron-up seta"></i>
+    </div>
+    
+    <footer>
+        <ul>
+            <li><a href="https://www.instagram.com/ruffo_marcenaria/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+        <p>Consulte meu CNPJ: <a href="https://www.google.com/search?q=cesemei&rlz=1C1GCEU_pt-BRBR919BR919&oq=cesemei&aqs=chrome..69i57j0i13i433j0i13l7j46i13i175i199.8454j1j4&sourceid=chrome&ie=UTF-8">  42.067.633/0001-67 </a></p>
+    </footer>
+
+  </body>
+
+</html>
+
+
