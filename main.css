@@ -51,7 +51,7 @@ header {
     background-color: #fff;
 }
 header h1{
-font-family:'PEIGNOT-LT-STD-BOLD, calibri', Times, serif; /*mesmo nome dado em @font-face*/
+font-family:'PEIGNOT-LT-STD-BOLD', 'calibri', Times, serif; /*mesmo nome dado em @font-face*/
 }
 
 @font-face {
