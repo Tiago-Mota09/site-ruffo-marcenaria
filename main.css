@@ -124,7 +124,7 @@ header li:last-child {
     font-weight: bold;
 }
 .principal h1 span{
-    font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-family: 'PEIGNOT-LT-STD-BOLD', 'calibri';
     font-size: 48px;
 }
 
@@ -198,7 +198,7 @@ header li:last-child {
     text-align: center;
 }
 .galeria p span{
-    font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-family: 'PEIGNOT-LT-STD-BOLD', 'calibri';
 }
 
 .galeria hr {
@@ -285,7 +285,7 @@ header li:last-child {
     text-align: center;
 }
 .sobre p span{
-    font-family: 'PEIGNOT-LT-STD-BOLD';
+    font-family: 'PEIGNOT-LT-STD-BOLD', 'calibri';
     font-size: 14px;
 }
 
